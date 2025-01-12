@@ -112,7 +112,7 @@ func (oc *Opts) checkConflicts() error {
 // for pointer conflicts.
 //
 // Multiple same-named options is an error.
-// Options refering to the same pointer output is an error.
+// Options referring to the same pointer output is an error.
 // It is an error for args to contain a pattern which looks like an option but
 // which is not defined.
 // It is an error for a non-optional option to have no value.

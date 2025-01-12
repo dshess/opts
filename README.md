@@ -1,5 +1,8 @@
 # opts
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/dshess/opts.svg)](https://pkg.go.dev/github.com/dshess/opts)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dshess/opts)](https://goreportcard.com/report/github.com/dshess/opts)
+
 Command-line flag parsing in the style of Perl's Getopt::Long.
 
 ## Objectives
@@ -9,7 +12,7 @@ I found myself missing Perl's
 So I set out to make something similar,
 [github.com/dshess/getopt](https://pkg.go.dev/github.com/dshess/getopt).
 getopt spent more time enforcing type safety than I cared for,
-this works in a builder-chain style.
+this package changes to a builder-chain style.
 
 ## Install
 
@@ -23,7 +26,7 @@ This was developed under go `1.23.2`.
 
 ## Documentation
 
-https://pkg.go.dev/github.com/dshess/opt
+https://pkg.go.dev/github.com/dshess/opts
 
 ## Usage
 

@@ -27,7 +27,7 @@ func (oc *Opts) NegatableOption(name string, option *bool) *Opts {
 	})
 }
 
-// Add counting option, every occurance of --<name> increments *option.
+// Add counting option, every occurrence of --<name> increments *option.
 func (oc *Opts) CountingOption(name string, option *int) *Opts {
 	return oc.addOption(name, optCountingHandler{
 		t:      optNoArg,
